@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="150dp"
+    android:layout_width="100dp"
+    android:id="@+id/layout_tree"
+    android:background="@drawable/area_shop_tree"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp">
+
+    <ImageView
+        android:id="@+id/img_tree"
+        android:layout_width="80dp"
+        android:layout_height="90dp"
+        android:src="@drawable/tree_1" />
+
+    <TextView
+        android:id="@+id/txt_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lexend_deca"
+        android:text="$ price"
+        android:textFontWeight="100"
+        android:textColor="#606060"
+        android:textSize="15sp" />
+
+
+
+</LinearLayout>
